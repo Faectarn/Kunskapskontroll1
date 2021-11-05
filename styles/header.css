@@ -1,0 +1,25 @@
+header
+{display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+ padding: 0 15%}
+
+header a
+{text-decoration: none;}
+
+ul
+{list-style-type: none;
+ width: 270px;
+ display: flex;
+ justify-content: space-between;
+ padding: 0}
+
+.active
+{font-weight: bold;}
+
+@media (max-width: 700px)
+{ul
+ {display: block;}
+
+}

@@ -1,0 +1,17 @@
+header
+{background:#A3C401;}
+
+header a
+{color: black;}
+
+header a:hover
+{color: rgb(241, 235, 219);}
+
+.bild
+{border: solid grey}
+
+.card img
+{border: solid grey 2px;}
+
+footer
+{background:#927C4D;}

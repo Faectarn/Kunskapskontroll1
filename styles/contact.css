@@ -1,0 +1,20 @@
+body
+{margin: 0;
+ background-image: url("assets/lowpoly.svg");
+ background-size: cover;}
+
+main
+{padding: 8% 15%;}
+
+footer
+{padding: 18px 15%;
+ text-align: right;
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ right: 0;}
+
+@media (max-width: 700px)
+{main
+ {padding: 4% 5%;}
+}

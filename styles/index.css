@@ -1,0 +1,42 @@
+body
+{margin: 0;
+ background-image: url("assets/lowpoly.svg");
+ background-size: cover;}
+
+main
+{padding: 10% 15%;}
+
+.presentation
+{display: flex;
+ align-items: center;}
+
+h4, h5
+{margin: 0;}
+
+.bild
+{border-radius: 40%;
+ border: 2px;
+ object-fit: cover;
+ height: 200px;
+ width: 200px;
+ margin-right: 40px;}
+
+footer
+{padding: 18px 15%;
+ text-align: right;
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ right: 0;}
+
+@media (max-width: 700px)
+{main
+ {padding: 15% 5%;}
+
+ .presentation
+ {display: inline}
+
+.bild
+ {height: 150px;
+  width: 150px;}
+}
